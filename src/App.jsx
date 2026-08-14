@@ -24,6 +24,8 @@ function App() {
         <Quiz />
         <FinalTribute />
         <ScrollProgress />
+       
+       
       </div>
     </main>
   );

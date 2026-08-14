@@ -19,6 +19,13 @@ function FighterCard({ fighter, index }) {
         <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-orange-500/10 blur-3xl transition duration-500 group-hover:bg-orange-500/20" />
 
         <div className="relative">
+            <div className="mb-6 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03]">
+  <div className="flex aspect-[4/3] items-center justify-center bg-gradient-to-br from-orange-500/10 via-white/5 to-green-500/10">
+    <span className="text-xs uppercase tracking-[0.3em] text-white/20">
+      Historical Portrait
+    </span>
+  </div>
+</div>
           <div className="mb-8 flex items-start justify-between">
             <span className="text-sm tracking-widest text-white/30">
               {String(index + 1).padStart(2, "0")}

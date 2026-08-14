@@ -38,8 +38,9 @@ function Timeline() {
         <div className="relative">
           
           {/* Timeline line */}
+          
           <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-orange-400 via-white/20 to-green-400 md:left-1/2 md:-translate-x-1/2" />
-
+            <div className="relative z-10 h-3 w-3 rounded-full border border-white/40 bg-[#080808] shadow-[0_0_20px_rgba(255,255,255,0.25)]" />
           <div className="space-y-16">
             {timelineEvents.map((event, index) => {
               const isLeft = index % 2 === 0;
