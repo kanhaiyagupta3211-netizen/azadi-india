@@ -4,8 +4,7 @@
 @import "tailwindcss";
 
 :root {
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
+  font-family: "Playfair Display", serif;
   color: #ffffff;
   background: #050505;
   font-synthesis: none;
@@ -35,3 +34,28 @@ a {
 ::selection {
   background: rgba(255, 153, 51, 0.35);
 }
+
+
+.section-glow {
+  position: relative;
+}
+
+.section-glow::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: min(700px, 80%);
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 153, 51, 0.35),
+    rgba(255, 255, 255, 0.25),
+    rgba(19, 136, 8, 0.35),
+    transparent
+  );
+}
+
+

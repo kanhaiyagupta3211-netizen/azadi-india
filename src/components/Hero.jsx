@@ -42,10 +42,30 @@ function Hero() {
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="mb-8 text-5xl md:text-7xl"
-        >
-          🇮🇳
-        </motion.div>
+         
+
+
+  initial={{ opacity: 0, scale: 0.6, rotate: -30 }}
+  animate={{ opacity: 1, scale: 1, rotate: 0 }}
+  transition={{ duration: 1.2 }}
+  className="relative mx-auto mb-8 flex h-24 w-24 items-center justify-center"
+>
+  <motion.div
+    animate={{ rotate: 360 }}
+    transition={{
+      duration: 18,
+      repeat: Infinity,
+      ease: "linear",
+    }}
+    className="absolute inset-0 rounded-full border border-blue-400/30"
+  />
+
+  <div className="h-3 w-3 rounded-full bg-blue-400/70 shadow-[0_0_20px_rgba(96,165,250,0.6)]" />
+
+  <div className="absolute inset-3 rounded-full border border-blue-400/20" />
+</motion.div>
+
+
 
         <motion.p
           initial={{ opacity: 0, y: 15 }}

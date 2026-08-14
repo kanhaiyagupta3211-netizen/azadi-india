@@ -1,4 +1,5 @@
-
+import ScrollProgress from "./components/ScrollProgress";
+import Atmosphere from "./components/Atmosphere";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Timeline from "./components/Timeline";
@@ -10,20 +11,27 @@ import FinalTribute from "./components/FinalTribute";
 
 function App() {
   return (
-    <main>
-      <Navbar />
-      <Hero />
-      <Timeline />
-      <FreedomFighters />
-      <Movements />
-      <HistoricPlaces />
-      <Quiz />
-      <FinalTribute />
+    <main className="relative overflow-hidden">
+      <Atmosphere />
+
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <Timeline />
+        <FreedomFighters />
+        <Movements />
+        <HistoricPlaces />
+        <Quiz />
+        <FinalTribute />
+        <ScrollProgress />
+      </div>
     </main>
   );
 }
 
 export default App;
+
+
 
 
 
