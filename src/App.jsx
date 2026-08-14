@@ -1,6 +1,8 @@
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Timeline from "./components/Timeline";
+import FreedomFighters from "./components/FreedomFighters";
 
 function App() {
   return (
@@ -8,19 +10,14 @@ function App() {
       <Navbar />
       <Hero />
 
-      <section
-        id="journey"
-        className="flex min-h-[50vh] items-center justify-center bg-[#080808] px-6"
-      >
-        <div className="text-center">
-          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-white/40">
-            Coming next
-          </p>
+      <Timeline />
 
-          <h2 className="text-4xl font-bold md:text-6xl">
-            The Road to Freedom
-          </h2>
-        </div>
+      <FreedomFighters />
+
+      <section className="flex min-h-[40vh] items-center justify-center bg-[#080808] px-6">
+        <h2 className="text-4xl font-bold md:text-6xl">
+          More stories coming soon...
+        </h2>
       </section>
     </main>
   );
