@@ -99,7 +99,7 @@ function Hero() {
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2 }}
-        className="absolute left-1/2 top-[19%] -translate-x-1/2"
+        className="absolute left-1/2 top-[22%] -translate-x-1/2"
       >
         <motion.div
           animate={{ rotate: 360 }}
@@ -129,8 +129,9 @@ function Hero() {
       {/* =========================
           HERO CONTENT
       ========================== */}
+        
 
-      <div className="relative z-10 mx-auto max-w-6xl text-center">
+        <div className="relative z-10 mx-auto max-w-6xl translate-y-10 text-center md:translate-y-14">
 
         <motion.p
           initial={{ opacity: 0, y: 15 }}

@@ -19,7 +19,7 @@ function Navbar() {
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7 }}
-     className="fixed left-1/2 top-4 z-50 w-[92%] max-w-6xl -translate-x-1/2"
+    className="absolute left-1/2 top-[16%] -translate-x-1/2 md:top-[22%]"
     >
       <div className="rounded-2xl border border-white/10 bg-black/65 px-5 py-3 shadow-2xl backdrop-blur-xl">
         <div className="flex items-center justify-between">

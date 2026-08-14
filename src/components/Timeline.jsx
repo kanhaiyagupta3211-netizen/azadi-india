@@ -5,10 +5,20 @@ import { timelineEvents } from "../data/timeline";
 function Timeline() {
   return (
     <section
-      id="journey"
-      className="relative overflow-hidden bg-[#050505] px-6 py-32"
-    >
-      <div className="mx-auto max-w-5xl">
+  id="journey"
+  className="relative overflow-hidden bg-[#080808] px-6 py-32"
+>
+
+    <div className="pointer-events-none absolute inset-0">
+  <div className="absolute left-[-10%] top-[20%] h-96 w-96 rounded-full bg-orange-500/[0.07] blur-[140px]" />
+
+  <div className="absolute right-[-10%] bottom-[10%] h-96 w-96 rounded-full bg-green-500/[0.06] blur-[140px]" />
+
+  <div className="absolute left-1/2 top-0 h-px w-[70%] -translate-x-1/2 bg-gradient-to-r from-transparent via-orange-400/30 to-transparent" />
+</div>
+
+<div className="relative z-10 mx-auto max-w-6xl">
+      
 
         <div className="mb-20 text-center">
           <p className="mb-4 text-xs uppercase tracking-[0.4em] text-green-400">

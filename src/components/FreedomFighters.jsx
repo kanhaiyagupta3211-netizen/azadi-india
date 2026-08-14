@@ -6,9 +6,17 @@ import { freedomFighters } from "../data/fighters";
 function FreedomFighters() {
   return (
     <section
-      id="heroes"
-      className="relative overflow-hidden bg-[#080808] px-6 py-32"
-    >
+  id="heroes"
+  className="relative overflow-hidden bg-[#050505] px-6 py-32"
+>
+
+    <div className="pointer-events-none absolute inset-0">
+  <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/[0.025] blur-[120px]" />
+
+  <div className="absolute right-[-15%] top-[20%] h-96 w-96 rounded-full bg-orange-500/[0.06] blur-[140px]" />
+</div>
+
+<div className="relative z-10 mx-auto max-w-6xl"></div>
       <div className="mx-auto max-w-6xl">
 
         <motion.div

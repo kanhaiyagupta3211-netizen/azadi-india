@@ -4,11 +4,19 @@ import { movements } from "../data/movements";
 
 function Movements() {
   return (
-    <section
-      id="movements"
-      className="bg-[#080808] px-6 py-32"
-    >
-      <div className="mx-auto max-w-6xl">
+   <section
+  id="movements"
+  className="relative overflow-hidden bg-[#060907] px-6 py-32"
+>
+
+    <div className="pointer-events-none absolute inset-0">
+  <div className="absolute bottom-[-10%] left-[15%] h-[450px] w-[450px] rounded-full bg-green-500/[0.08] blur-[150px]" />
+
+  <div className="absolute right-[10%] top-[10%] h-80 w-80 rounded-full bg-white/[0.025] blur-[120px]" />
+</div>
+
+<div className="relative z-10 mx-auto max-w-6xl">
+      
 
         <div className="mb-16">
           <p className="text-xs uppercase tracking-[0.4em] text-green-400">

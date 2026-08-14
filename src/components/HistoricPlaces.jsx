@@ -6,10 +6,17 @@ import { historicPlaces } from "../data/places";
 function HistoricPlaces() {
   return (
     <section
-      id="places"
-      className="bg-[#050505] px-6 py-32"
-    >
-      <div className="mx-auto max-w-6xl">
+  id="places"
+  className="relative overflow-hidden bg-[#070707] px-6 py-32"
+>
+
+    <div className="pointer-events-none absolute inset-0">
+  <div className="absolute left-[-15%] top-[30%] h-[500px] w-[500px] rounded-full bg-orange-500/[0.06] blur-[160px]" />
+
+  <div className="absolute right-[-10%] bottom-[10%] h-[450px] w-[450px] rounded-full bg-green-500/[0.06] blur-[160px]" />
+</div>
+<div className="relative z-10 mx-auto max-w-6xl">
+      
 
         <div className="mb-16 max-w-3xl">
           <p className="text-xs uppercase tracking-[0.4em] text-orange-400">
