@@ -1,58 +1,71 @@
+import sardarPatel from "../assets/fighters/sardarPatel.jpg";
+import subhashBose from "../assets/fighters/subhashBose.jpg";
+import gandhi from "../assets/fighters/gandhi.jpg";
+import raniLakshmibai from "../assets/fighters/raniLakshmibai.jpg";
+import bhagatSingh from "../assets/fighters/bhagatSingh.jpg";
+import chandrashekharAzad from "../assets/fighters/chandrashekharAzad.jpg";
+
+
 
 export const freedomFighters = [
   {
     id: 1,
-    name: "Mahatma Gandhi",
-    years: "1869 — 1948",
-    role: "Leader of the Indian independence movement",
-    description:
-      "Gandhi played a central role in India's independence movement through non-violent civil resistance and mass mobilisation.",
-    accent: "saffron",
-  },
-  {
-    id: 2,
-    name: "Bhagat Singh",
-    years: "1907 — 1931",
-    role: "Revolutionary freedom fighter",
-    description:
-      "Bhagat Singh became one of the most influential revolutionary figures of India's independence movement and inspired generations of young Indians.",
-    accent: "gold",
-  },
-  {
-    id: 3,
     name: "Subhas Chandra Bose",
     years: "1897 — 1945",
-    role: "Leader of the Indian National Army",
+    role: "Nationalist Leader",
     description:
-      "Subhas Chandra Bose sought to end British rule through revolutionary and military efforts and became a prominent leader of the Indian National Army.",
-    accent: "green",
+      "Subhas Chandra Bose advocated a determined struggle for independence and led the Indian National Army during the Second World War.",
+    image: subhashBose,
   },
+
+  {
+    id: 2,
+    name: "Sardar Vallabhbhai Patel",
+    years: "1875 — 1950",
+    role: "Nationalist Leader",
+    description:
+      "Sardar Vallabhbhai Patel was an important leader of India's independence movement and later played a major role in integrating the princely states.",
+    image: sardarPatel,
+  },
+
+  {
+    id: 3,
+    name: "Mahatma Gandhi",
+    years: "1869 — 1948",
+    role: "Leader of the Freedom Movement",
+    description:
+      "Gandhi played a central role in India's independence movement through non-violent resistance, civil disobedience and mass mobilisation.",
+      image: gandhi,
+  },
+
   {
     id: 4,
-    name: "Rani Lakshmibai",
-    years: "1828 — 1858",
-    role: "Leader during the uprising of 1857",
+    name: "Bhagat Singh",
+    years: "1907 — 1931",
+    role: "Revolutionary",
     description:
-      "The Rani of Jhansi became a prominent figure during the uprising of 1857 and is remembered for her resistance against British rule.",
-    accent: "saffron",
+      "Bhagat Singh became one of the most influential revolutionary figures of India's freedom struggle and inspired generations with his courage and ideas.",
+      image: bhagatSingh,
   },
+
   {
     id: 5,
-    name: "Sarojini Naidu",
-    years: "1879 — 1949",
-    role: "Freedom movement leader",
+    name: "Rani Lakshmibai",
+    years: "1828 — 1858",
+    role: "Queen of Jhansi",
     description:
-      "Sarojini Naidu was a prominent political leader, poet and participant in India's freedom movement.",
-    accent: "green",
+      "Rani Lakshmibai became a prominent leader during the uprising of 1857 and is remembered for her resistance and leadership.",
+      image: raniLakshmibai,
   },
+
+  
   {
-    id: 6,
+    id: 7,
     name: "Chandrashekhar Azad",
     years: "1906 — 1931",
-    role: "Revolutionary freedom fighter",
+    role: "Revolutionary Freedom Fighter",
     description:
       "Chandrashekhar Azad was an important revolutionary who became a major figure in India's struggle against colonial rule.",
-    accent: "gold",
+      image: chandrashekharAzad,
   },
 ];
-

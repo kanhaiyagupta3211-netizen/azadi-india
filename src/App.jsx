@@ -26,6 +26,7 @@ function App() {
         <ScrollProgress />
        
        
+       
       </div>
     </main>
   );
